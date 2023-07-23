@@ -10,7 +10,7 @@ import { createPublicClient, http, parseAbiItem } from 'viem'
 import { readContract } from '@wagmi/core';
 import DiscountToken from '../../public/artifacts/contracts/DiscountToken.sol/DiscountToken.json'
 import Tokenize from '../../public/artifacts/contracts/Tokenize.sol/Tokenize.json'
-import StakingERC1155Id1 from '../../public/artifacts/contracts/StakingERC1155ID1.sol/StakingERC1155ID1.json'
+import StakingERC1155Id1 from '../../public/artifacts/contracts/StakingERC1155Id1.sol/StakingERC1155Id1.json'
 
 
 const Admin = () => {
