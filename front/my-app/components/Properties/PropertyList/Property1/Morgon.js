@@ -241,37 +241,37 @@ const MorgonFundraiser = () => {
     
             <Flex width="100%" justify="space-between" mb="5" direction={["column", "row"]} alignItems="center">
                 <Box minHeight="200px" bg="#F3F2FF" border="3px solid darkslateblue" borderRadius="lg" p={5} color="black" width={["100%", "35%"]} justifyContent="center">
-                    <Text fontSize="2xl" fontWeight="bold" mb="4" color="darkslateblue" textAlign="center">User Details</Text>
+                    <Text fontSize="2xl" fontWeight="bold" mb="2rem" color="darkslateblue" textAlign="center"><Center>User Details</Center></Text>
                     <HStack spacing={5} align="center">
-                        <Box bg="#D3D2FF" borderRadius="lg" p={5} border="1px" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
-                            <Text>Tickets Owned</Text>
-                            <Text fontWeight="bold" color="darkslateblue">{ticketOwners.toString()}</Text>
+                        <Box bg="#D3D2FF" borderRadius="lg" p={5} mx="auto" border="1px" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
+                            <Text><Center>Tickets Owned</Center></Text>
+                            <Text fontWeight="bold" color="darkslateblue"><Center>{ticketOwners.toString()}</Center></Text>
                         </Box>
-                        <Box bg="#D3D2FF" borderRadius="lg" p={5} border="1px" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
-                            <Text>Whitelist Status</Text>
-                            <Text fontWeight="bold" color={whitelist ? "green" : "red"}>{whitelist ? "Whitelisted" : "Not Whitelisted"}</Text>
+                        <Box bg="#D3D2FF" borderRadius="lg" p={5} mx="auto" border="1px" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
+                            <Text><Center>Whitelist Status</Center></Text>
+                            <Text fontWeight="bold" color={whitelist ? "green" : "red"}><Center>{whitelist ? "Whitelisted" : "Not Whitelisted"}</Center></Text>
                         </Box>
                     </HStack>
                 </Box>
 
                 <Box minHeight="200px" bg="#F3F2FF" border="3px solid darkslateblue" borderRadius="lg" p={5} color="black" width={["100%", "60%"]} justifyContent="center">
-                    <Text fontSize="2xl" fontWeight="bold" mb="4" color="darkslateblue" textAlign="center">Property Details</Text>
+                    <Text fontSize="2xl" fontWeight="bold" mb="2rem" color="darkslateblue" textAlign="center">Property Details</Text>
                     <HStack spacing={5} align="center">
-                        <Box bg="#D3D2FF" borderRadius="lg" p={5} border="1px" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
-                            <Text>Ticket Price</Text>
-                            <Text fontWeight="bold" color="darkslateblue">500 DAI</Text>
+                        <Box bg="#D3D2FF" borderRadius="lg" p={5} border="1px" mx="auto" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
+                            <Text><Center>Ticket Price</Center></Text>
+                            <Text fontWeight="bold" color="darkslateblue"><Center>500 DAI</Center></Text>
                         </Box>
-                        <Box bg="#D3D2FF" borderRadius="lg" p={5} border="1px" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
-                            <Text>Max Tickets</Text>
-                            <Text fontWeight="bold" color="darkslateblue">200</Text>
+                        <Box bg="#D3D2FF" borderRadius="lg" p={5} border="1px" mx="auto" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
+                            <Text><Center>Max Tickets</Center></Text>
+                            <Text fontWeight="bold" color="darkslateblue"><Center>200</Center></Text>
                         </Box>
-                        <Box bg="#D3D2FF" borderRadius="lg" p={5} border="1px" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
-                            <Text>Property ID</Text>
-                            <Text fontWeight="bold" color="darkslateblue">1</Text>
+                        <Box bg="#D3D2FF" borderRadius="lg" p={5} border="1px" mx="auto" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
+                            <Text><Center>Property ID</Center></Text>
+                            <Text fontWeight="bold" color="darkslateblue"><Center>1</Center></Text>
                         </Box>
-                        <Box bg="#D3D2FF" borderRadius="lg" p={5} border="1px" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
-                            <Text>Tickets Sold</Text>
-                            <Text fontWeight="bold" color="darkslateblue">{ticketsSold.toString()}</Text>
+                        <Box bg="#D3D2FF" borderRadius="lg" p={5} border="1px" mx="auto" borderColor="darkslateblue" width="170px" height="80px" d="flex" justifyContent="center" alignItems="center" flexDirection="column">
+                            <Text><Center>Tickets Sold</Center></Text>
+                            <Text fontWeight="bold" color="darkslateblue"><Center>{ticketsSold.toString()}</Center></Text>
                         </Box>
                     </HStack>
                 </Box>
